@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.encabezado {
+
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: auto;
+    padding-bottom: rem;
+    background-color: #bbd5f9;
+
+    height: 8rem;
+}
+
+.col {
+    width: 100%;
+    background-color: rgb(156, 143, 231);
+}
+
+#carouselExampleIndicators {
+    display: flex-box;
+    height: 20rem;
+    background-color: #f4c284;
+    text-align: center;
+
+}
+
+.carrusel {
+    width: 100%;
+    margin-top: rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    vertical-align: text-top;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    background-color: #ffffff;
+    border-color: #dceafc;
+
+}
+
+.row {
+
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.logo {
+    margin-top: -5%;
+    width: 30%;
+    display: block;
+
+}
+
+.formReparacion {
+    margin-left: 5rem;
+    width: 80%;
+    margin-top: -3%;
+}
+
+body {
+
+    background-color: #ffffff;
+}
+
+.fa-brands {
+    font-size: larger;
+    color: #c82bd6
+}
+
+.dropdown-menu {
+
+    align-content: center;
+}
+
+.footer {
+    
+    height: 8rem;
+    display: block;
+    margin-left: 0%;
+   width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: auto;
+    padding-bottom: rem;
+    height: auto;
+}
+
+.listaClientes {
+
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.enviado {
+    margin-top: 5rem;
+    text-align: center;
+}

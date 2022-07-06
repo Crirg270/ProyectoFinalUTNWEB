@@ -1,0 +1,65 @@
+{{>header}}
+<body>
+  <section class="formReparacion">
+
+  <form action="/enviar-email" method="post" class="row g-3">
+    <div class="col-md-6">
+      <label for="nombre" class="form-label">Nombre</label>
+      <input type="text" name="nombre" class="form-control" id="inputName">
+    </div>
+    <div class="col-md-6">
+      <label for="apellido" class="form-label">Apellido</label>
+      <input type="text" name="apellido" class="form-control" id="inputApellido">
+    </div>
+    <div class="col-md-6">
+      <label for="direccion" class="form-label">Dirección</label>
+      <input type="text" name="direccion" class="form-control" id="inputAddress" placeholder="">
+    </div>
+    <div class="col-md-6">
+      <label for="localidad" class="form-label">Localidad</label>
+      <input type="text" name="localidad" class="form-control" id="inputLocalidad" placeholder="">
+    </div>
+    
+    <div class="col-12">
+   
+    </div>
+    
+    <div class="col-md-6">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" name="email" class="form-control" id="inputEmail">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label" >Tipo de equipo</label>
+      <select id="inputState" name="tipo" class="form-select">
+        <option selected>Pc</option>
+        <option>Notebook</option>
+      </select>
+    </div>
+    
+    <div class="form-floating">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" name="problema"></textarea>
+      <label for="floatingTextarea2" name="problema">Descripción del problema:</label>
+    </div>
+
+    <div class="col-12">
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+
+    
+  </form>  
+</section>
+
+
+{{>footer}}
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

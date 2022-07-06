@@ -1,0 +1,41 @@
+
+
+{{>header}}
+<body>
+
+
+{{#each results}}
+  <div class="card" style="width: 18rem;">
+     
+    <img class="card-img-top" src="assets/imagenes/PCoficina.jpg" alt="Card image cap">
+   
+    <div class="card-body">
+      
+      <h5 class="card-title">{{pc_nombre}}</h5>
+      <p class="card-text">
+     
+     
+     {{pc_caracteristicas}}
+     
+
+      </p>
+      <a href="#" class="btn btn-primary">Comprar</a>
+
+    
+    </div>
+   
+  </div>
+  {{/each}}
+ 
+ 
+{{>footer}}
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+
+  <script src="assets/js/bootstrap.min.js"></script>    
+
+</body>
+
+</html>
